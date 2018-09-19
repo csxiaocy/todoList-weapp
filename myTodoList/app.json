@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/add/add"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#61dafb",
+    "navigationBarTitleText": "My Todo List",
+    "navigationBarTextStyle":"black"
+  }
+}

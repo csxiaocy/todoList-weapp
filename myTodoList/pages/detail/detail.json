@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "任务详情",
+  "usingComponents": {
+    "van-panel": "/dist/panel/index",
+    "van-button": "/dist/button/index",
+    "van-dialog": "/dist/dialog/index",
+    "van-toast": "/dist/toast/index"
+  }
+}

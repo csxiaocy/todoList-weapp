@@ -1,0 +1,12 @@
+<view>
+  <view class='blank'></view>
+  <van-panel title="{{task.title}}" desc="标签：{{task.label}}" status="{{task.isFinished ? '已完成' : '正在进行'}}" use-footer-slot>
+    <view class="content">{{task.content}}</view>
+    <view slot="footer" class="footer">
+      <van-button wx:if="{{!task.isFinished}}" class='left-btn' size="small" custom-class="demo-margin-right" bind:click="changeIsFinished">标记完成</van-button>
+      <van-button size="small" type="danger" bindtap='delTask'>删除记录</van-button>
+    </view>
+  </van-panel>
+  <van-dialog id="van-dialog" bind:confirm="sureDelTask" />
+  <van-toast id="van-toast" />
+</view>
