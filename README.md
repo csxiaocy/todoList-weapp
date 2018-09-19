@@ -12,6 +12,8 @@
 - 查看任务详情
 - 创建新任务
 
+部分截图如上
+
 该小程序是本人学习的一个案例。如有改进建议，请不吝赐教!
 
 使用了：Vant-Weapp：https://github.com/youzan/vant-weapp
